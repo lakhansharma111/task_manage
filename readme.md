@@ -1,4 +1,4 @@
-# 🧾 Django Task Manager (REST API + CLI)
+#  Django Task Manager (REST API + CLI)
 
 A complete **Task Management System** built using **Django REST Framework** with a powerful **Command-Line Interface (CLI)** for managing tasks directly from your terminal.
 
@@ -8,7 +8,7 @@ This project demonstrates clean code structure, full CRUD support, input validat
 
 ## 🚀 Features
 
-### 🧩 REST API
+###  REST API
 
 * Create, Read, Update, Delete (CRUD) tasks
 * Filter tasks by completion status, priority, and due date
@@ -16,7 +16,7 @@ This project demonstrates clean code structure, full CRUD support, input validat
 * Assign and manage priority levels (`low`, `medium`, `high`)
 * Fully persistent data (SQLite database)
 
-### 💻 CLI Interface
+###  CLI Interface
 
 * Interact with the system via `python manage.py taskcli`
 * Perform all CRUD operations from the terminal
@@ -26,7 +26,7 @@ This project demonstrates clean code structure, full CRUD support, input validat
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 | Component         | Technology                |
 | ----------------- | ------------------------- |
@@ -38,7 +38,7 @@ This project demonstrates clean code structure, full CRUD support, input validat
 
 ---
 
-## 🧠 Business Logic
+##  Business Logic
 
 Each **Task** includes:
 
@@ -53,47 +53,47 @@ Each **Task** includes:
 
 ---
 
-## 📦 Installation & Setup
+##  Installation & Setup
 
-### 1️⃣ Clone the repository
+###  Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/django-task-manager.git
 cd django-task-manager
 ```
 
-### 2️⃣ Create a virtual environment
+###  Create a virtual environment
 
 ```bash
 python -m venv venv
 source venv/bin/activate     # On Windows: venv\\Scripts\\activate
 ```
 
-### 3️⃣ Install dependencies
+###  Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4️⃣ Apply migrations
+###  Apply migrations
 
 ```bash
 python manage.py makemigrations
 python manage.py migrate
 ```
 
-### 5️⃣ Run the development server
+###  Run the development server
 
 ```bash
 python manage.py runserver
 ```
 
-Visit 👉 **[http://127.0.0.1:8000/api/tasks/](http://127.0.0.1:8000/api/tasks/)** to view API output.
-Interactive API docs are available at 👉 **[http://127.0.0.1:8000/api/docs/](http://127.0.0.1:8000/api/docs/)** (if enabled).
+Visit  **[http://127.0.0.1:8000/api/tasks/](http://127.0.0.1:8000/api/tasks/)** to view API output.
+Interactive API docs are available at **[http://127.0.0.1:8000/api/docs/](http://127.0.0.1:8000/api/docs/)** (if enabled).
 
 ---
 
-## 🧩 REST API Endpoints
+##  REST API Endpoints
 
 | Method      | Endpoint                      | Description             |
 | ----------- | ----------------------------- | ----------------------- |
@@ -105,7 +105,7 @@ Interactive API docs are available at 👉 **[http://127.0.0.1:8000/api/docs/](h
 | `POST`      | `/api/tasks/{id}/complete/`   | Mark task as complete   |
 | `POST`      | `/api/tasks/{id}/incomplete/` | Mark task as incomplete |
 
-### 🔍 Filtering
+###  Filtering
 
 You can filter tasks using query parameters:
 
@@ -116,7 +116,7 @@ You can filter tasks using query parameters:
 /api/tasks/?due_after=2025-11-01
 ```
 
-### 🧪 Example Request
+###  Example Request
 
 **POST /api/tasks/**
 
@@ -131,7 +131,7 @@ You can filter tasks using query parameters:
 
 ---
 
-## 🧰 CLI Command Usage
+##  CLI Command Usage
 
 You can manage tasks directly via the command line using the built-in Django command `taskcli`.
 
@@ -189,7 +189,7 @@ python manage.py taskcli incomplete --id 1
 
 ---
 
-## ⚡ Error Handling
+##  Error Handling
 
 | Scenario                    | Example Message                                       |
 | --------------------------- | ----------------------------------------------------- |
@@ -201,7 +201,7 @@ python manage.py taskcli incomplete --id 1
 
 ---
 
-## 🧩 Requirements
+##  Requirements
 
 **requirements.txt**
 
@@ -213,7 +213,7 @@ django-filter>=23.0
 
 ---
 
-## 🧪 Example Test Data
+##  Example Test Data
 
 To add some test tasks quickly:
 
@@ -238,7 +238,7 @@ python manage.py taskcli list
 
 ---
 
-## 📖 Assumptions
+##  Assumptions
 
 * No authentication required (for simplicity)
 * SQLite database used for persistence
@@ -247,7 +247,7 @@ python manage.py taskcli list
 
 ---
 
-## 🧩 Future Enhancements
+##  Future Enhancements
 
 * ✅ Add authentication (JWT-based)
 * ✅ Add pagination & search
@@ -256,8 +256,7 @@ python manage.py taskcli list
 
 ---
 
-## 🧡 Author
 
-**Developed by:** *Your Name / Your Company*
-**Email:** [yourname@example.com](mailto:yourname@example.com)
-**GitHub:** [@yourusername](https://github.com/yourusername)
+
+**Developed by:** *Lakhan Sharma*
+**Email:** lakhansharma1june@gmail.com
